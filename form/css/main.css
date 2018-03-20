@@ -5,30 +5,30 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@font-face {
+/*@font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Black;
-  src: url('../fonts/montserrat/Montserrat-Black.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Black.ttf');
 }
 
 @font-face {
   font-family: Montserrat-SemiBold;
-  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
-}
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}*/
 
 
 
@@ -36,22 +36,21 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	/*font-family: Poppins-Regular, sans-serif;*/
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #fff;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -73,7 +72,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -158,14 +156,14 @@ iframe {
 [ Utility ]*/
 
 .bg0 {background-color: #fff;}
-.bg1 {background-color: #f7f7f7;}
+.bg1 {background-color: #fff;}
 
 
 /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
 .container-contact100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -176,8 +174,8 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #e6e6e6;
-  
+  background: #F8F9FE;
+
 }
 
 .wrap-contact100 {
@@ -372,7 +370,7 @@ textarea.input100 {
   position: absolute;
   width: 100%;
   min-height: 40px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   top: 35px;
   left: 0px;
   padding: 0 45px 0 22px;
@@ -626,9 +624,9 @@ textarea.input100 {
   border-radius: 50%;
   border: 6px solid transparent;
   background: #00ad5f;
-  -moz-background-clip: padding;     
-  -webkit-background-clip: padding;  
-  background-clip: padding-box; 
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -669,7 +667,7 @@ textarea.input100 {
   height: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 9px;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 #filter-bar .noUi-connect {
   border: 1px solid #e6e6e6;
